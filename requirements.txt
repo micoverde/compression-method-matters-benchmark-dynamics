@@ -1,0 +1,30 @@
+# Green Tokens - Energy Measurement Requirements
+# Python 3.10+
+
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Power monitoring
+pynvml>=11.5.0
+nvidia-ml-py>=12.535.0
+
+# API clients
+httpx>=0.24.0
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Inference (Phase 2)
+vllm>=0.4.0
+transformers>=4.36.0
+torch>=2.1.0
+
+# Analysis and visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+statsmodels>=0.14.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0

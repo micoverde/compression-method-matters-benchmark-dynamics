@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this data or software, please cite it as below."
+title: "Green Tokens: Quantifying the Energy Impact of Prompt Compression in Large Language Model Inference"
+type: software
+authors:
+  - family-names: "[Author]"
+    given-names: "[Name]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/micoverde/green-tokens-energy-research"
+url: "https://github.com/micoverde/green-tokens-energy-research"
+license: MIT
+version: "1.0.0"
+date-released: "2026-01-22"
+keywords:
+  - large language models
+  - energy efficiency
+  - prompt compression
+  - green AI
+  - sustainability
+  - carbon footprint
+abstract: >-
+  Experimental data and analysis code for measuring the energy impact
+  of prompt compression in LLM inference. Includes Phase 2 direct GPU
+  power measurements (600 trials) demonstrating the Output Length Paradox:
+  prompt compression reduces tokens by 17% but saves only 4.9% energy.
